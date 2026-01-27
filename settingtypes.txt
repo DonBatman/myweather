@@ -1,0 +1,12 @@
+# MyWeather Mod Configuration
+
+myweather_particle_multiplier (Particle Density Multiplier) float 1.0 0.1 5.0
+# Global multiplier for all weather particles. 
+# 1.0 is default, 3.0 is very thick, 5.0 is extreme.
+
+myweather_wind_push_strength (Wind Push Strength) float 1.0 0.0 2.0
+# How much the wind physically moves the player.
+# 1.0 is default, 0.0 disables push.
+
+myweather_enable_sound (Enable Weather Sounds) bool true
+# Toggle the looping rain and storm audio on or off.
