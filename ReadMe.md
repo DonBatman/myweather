@@ -29,5 +29,3 @@ A high-performance, immersive weather engine for Luanti that adds dynamic atmosp
 * [Wood] [Empty] [Wood]
 * [Wood] [Wood] [Wood]
 
-## 📜 License
-MIT
