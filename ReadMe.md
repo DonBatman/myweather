@@ -10,6 +10,12 @@ A high-performance, immersive weather engine for Luanti that adds dynamic atmosp
 * **Persistence:** Weather states and timers are saved to the server disk—rain won't stop just because the server restarted.
 * **Snow Accumulation:** Snow builds up in layers during storms and melts when the sun comes out.
 
+## 🛠 Installation
+1. Download the mod and rename the folder to `myweather`.
+2. Move it into your Luanti `mods` folder.
+3. Enable `myweather` in your world configuration.
+4. (Optional) Add your own `myweather_thunder.ogg` and `myweather_lightning.png` to the textures/sounds folders.
+
 ## ⌨️ Chat Commands
 | Command | Description | Privileges |
 | :--- | :--- | :--- |

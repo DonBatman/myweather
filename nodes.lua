@@ -7,7 +7,7 @@ core.register_node("myweather:puddle", {
 	buildable_to = true,
 	alpha = 50,
 	node_box = {type = "fixed", fixed = {{-0.3, -0.5, -0.3, 0.3, -0.48, 0.3}}},
-	groups = {not_in_creative_inventory = 1, crumbly = 3, myweather_clearable = 1, melt_speed = 1},
+	groups = {not_in_creative_inventory = 1, crumbly = 3, myweather_clearable = 1, melt_speed = 1, oddly_breakable_by_hand = 1},
 	drop = "",
 })
 
@@ -134,9 +134,12 @@ end
 core.register_node("myweather:station", {
 	description = "Weather Station",
 	tiles = {
-		"myweather_station_top.png", "myweather_station_side.png", 
-		"myweather_station_side.png", "myweather_station_side.png", 
-		"myweather_station_side.png", "myweather_station_clear.png"
+		"myweather_station_top.png", 
+		"myweather_station_side.png", 
+		"myweather_station_side.png", 
+		"myweather_station_side.png", 
+		"myweather_station_side.png", 
+		"myweather_station_clear.png"
 	},
 	drawtype = "nodebox",
 	paramtype = "light",
@@ -164,8 +167,8 @@ core.register_node("myweather:wind_vane", {
 		type = "fixed",
 		fixed = {
 			{-0.0625, -0.5, -0.0625, 0.0625, 0.25, 0.0625},
-			{-0.0625, 0.25, -0.375, 0.0625, 0.375, 0.25},
-			{-0.125, 0.25, 0.25, 0.125, 0.375, 0.4375},
+			{-0.0625, 0.25, -0.375, 0.0625, 0.375, 0.4375},
+			{-0.125, 0.25, 0.25, 0.125, 0.375, 0.375},
 		},
 	},
 	groups = {choppy = 2, oddly_breakable_by_hand = 2},
